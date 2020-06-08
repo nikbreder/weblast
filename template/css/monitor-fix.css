@@ -1,0 +1,17 @@
+.content-header {
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.content-header h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-header .breadcrumb {
+    position: static;
+    float: unset;
+    grid-column-start: 2;
+}
